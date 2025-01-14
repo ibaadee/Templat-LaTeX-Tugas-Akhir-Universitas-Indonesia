@@ -1,0 +1,84 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Knuth%
+}{%
+Knuth%
+}{%
+{\protect \APACyear {1984}}%
+}]{%
+knuth:1984}
+\APACinsertmetastar {%
+knuth:1984}%
+\begin{APACrefauthors}%
+Knuth, D\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1984}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Literate Programming} {Literate programming}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Computer Journal}{27}{2}{97--111}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mittelbach%
+, Gossens%
+, Braams%
+, Carlisle%
+\BCBL {}\ \BBA {} Rowley%
+}{%
+Mittelbach%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+latex:companion}
+\APACinsertmetastar {%
+latex:companion}%
+\begin{APACrefauthors}%
+Mittelbach, F.%
+, Gossens, M.%
+, Braams, J.%
+, Carlisle, D.%
+\BCBL {}\ \BBA {} Rowley, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {The {\LaTeX} Companion} {The {\LaTeX} companion}\
+  (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Addison-Wesley Professional}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Varberg%
+, Purcell%
+\BCBL {}\ \BBA {} Rigdon%
+}{%
+Varberg%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+varberg2007calculus}
+\APACinsertmetastar {%
+varberg2007calculus}%
+\begin{APACrefauthors}%
+Varberg, D.%
+, Purcell, E.%
+\BCBL {}\ \BBA {} Rigdon, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {Calculus} {Calculus}\ (\PrintOrdinal{9th}\ \BEd).
+\newblock
+\APACaddressPublisher{}{Prentice Hall}.
+\newblock
+\begin{APACrefURL} \url{https://www.google.com} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

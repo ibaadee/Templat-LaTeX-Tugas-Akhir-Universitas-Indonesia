@@ -1,0 +1,272 @@
+\documentclass[12pt, twoside]{report} % basis ukuran font adalah 12 poin dan opsi twoside untuk keperluan penomoran halaman kiri-kanan
+
+% spesifikasi kertas, margin, font, line spacing, dan footer
+\usepackage[paper = a4paper,
+            left = 3cm, 
+            right = 3cm, 
+            top = 3cm, 
+            bottom = 3cm]{geometry}
+
+\usepackage[indonesian]{babel} % agar pemenggalan kata sesuai kbbi
+
+% pengaturan auto text pada footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % hapus semua header
+\fancyfoot{} % hapus semua footer
+% hilangkan garis dan jarak pada header
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\headruleskip}{0pt}
+% hilangkan garis dan jarak pada footer
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\footruleskip}{0pt}
+\usepackage{helvet} % font arial
+\fancyfoot[R]{\sffamily \small \textbf{Universitas Indonesia}} % digunakan font arial yang di-bold dengan ukuran small agar ukuran font menjadi 10 poin karena basis ukuran font adalah 12 poin
+
+\usepackage{mathptmx} % font times new roman
+
+\usepackage{setspace}
+\onehalfspacing % line spacing = 1.5 lines
+
+% mengganti judul table of contents, list of tables, list of figures, bab, dan bibliography, serta nama gambar dan tabel ke Bahasa Indonesia
+\addto\captionsindonesian{\renewcommand{\contentsname}{DAFTAR ISI}}
+\addto\captionsindonesian{\renewcommand{\listfigurename}{DAFTAR GAMBAR}}
+\addto\captionsindonesian{\renewcommand{\listtablename}{DAFTAR TABEL}}
+\addto\captionsindonesian{\renewcommand{\chaptername}{BAB}}
+\addto\captionsindonesian{\renewcommand{\bibname}{DAFTAR REFERENSI}}
+
+\def\figurename{Gambar}
+\def\tablename{Tabel}
+
+% perintah baru untuk memasukkan judul chapter yang bukan bab ke daftar isi
+\newcommand{\addchapter}[1]{
+    \addcontentsline{toc}{chapter}{#1}
+}
+
+\setcounter{secnumdepth}{3} % maksimum hanya sampai subsubsection 
+
+% pengaturan tampilan bab
+\usepackage{sectsty}
+\usepackage{titlesec}
+\sectionfont{\normalsize} % ukuran font section adalah 12 poin
+\subsectionfont{\normalsize} % ukuran font subsection adalah 12 poin
+\titleformat{\chapter}[display]   
+{\centering \normalsize \bfseries}{\chaptertitlename\ \thechapter}{0pt}{\normalsize}   
+\titlespacing*{\chapter}{0pt}{-20pt}{20pt}
+
+% hal-hal yang berkaitan dengan matematika (salinan dari templat latex proposal skripsi dengan sedikit modifikasi)
+\usepackage{amsmath, amssymb, amsthm}
+\numberwithin{equation}{chapter}
+
+\theoremstyle{definition} % Isi teorema tidak ditulis miring
+\newtheorem{theorem}{Teorema}[chapter]
+\newtheorem{lemma}[theorem]{Lema} 
+\newtheorem{proposition}[theorem]{Proposisi}
+\newtheorem{corollary}[theorem]{Akibat}
+\newtheorem{definition}{Definisi}[chapter]
+\newtheorem{example}{Contoh}[chapter]
+\newtheorem*{remark}{Catatan}
+\def\proofname{Bukti}
+
+% hapus jarak pemisah untuk enumerate dan itemize agar jarak konsisten
+\usepackage{enumitem}
+\setlist[enumerate]{nosep}
+\setlist[itemize]{nosep}
+
+% mengatur jarak antara gambar dan caption gambar agar konsisten dengan line spacing yang digunakan
+\usepackage[skip = 8pt]{caption}
+\raggedbottom
+
+% pengaturan daftar referensi
+\usepackage[natbibapa]{apacite}
+\bibliographystyle{apacite}
+\renewcommand{\BOthers}{dkk} % mengubah et al. menjadi dkk.
+\renewcommand{\BRetrievedFrom}{} % menghilangkan frasa "retrieved from"
+\renewcommand{\doiprefix}{} % menghilangkan kata "doi:"
+
+\usepackage{url}
+\AtBeginDocument{\urlstyle{APACsame}} % agar font tautan yang ditampilkan sama dengan font yang digunakan dalam keseluruhan dokumen
+
+% pengaturan lampiran
+\usepackage{tocloft}
+\newcommand{\listappendicesname}{DAFTAR LAMPIRAN}
+\newlistof{appendices}{apc}{\listappendicesname}
+\newcommand{\appendices}[1]{\addcontentsline{apc}{appendices}{#1}}
+\newcommand{\newappendix}[1]{\section*{#1}\appendices{#1}}
+\renewcommand{\cftapctitlefont}{\hfill\normalsize\bfseries} 
+\renewcommand{\cftafterapctitle}{\hfill}
+\addtolength{\cftbeforeapctitleskip}{-2.25cm} % jarak sebelum judul daftar lampiran
+\addtolength{\cftafterapctitleskip}{0cm} % jarak setelah judul daftar lampiran
+
+% pengaturan ulang tampilan judul daftar isi, daftar gambar, dan daftar tabel akibat penggunaan package tocloft
+\renewcommand{\cfttoctitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\addtolength{\cftbeforetoctitleskip}{-2.25cm} % jarak sebelum judul daftar isi
+\addtolength{\cftaftertoctitleskip}{0cm} % jarak setelah judul daftar isi
+
+\renewcommand{\cftloftitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftafterloftitle}{\hfill}
+\addtolength{\cftbeforeloftitleskip}{-2.25cm} % jarak sebelum judul daftar gambar
+\addtolength{\cftafterloftitleskip}{0cm} % jarak setelah judul daftar gambar
+
+\renewcommand{\cftlottitlefont}{\hfill\normalsize\bfseries}
+\renewcommand{\cftafterlottitle}{\hfill}
+\addtolength{\cftbeforelottitleskip}{-2.25cm} % jarak sebelum judul daftar tabel
+\addtolength{\cftafterlottitleskip}{0cm} % jarak setelah judul daftar tabel
+
+% package lain yang diperlukan (tambahkan package yang diperlukan)
+\usepackage{array}
+\usepackage{emptypage}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{indentfirst}
+\usepackage{lipsum}
+\usepackage{tabularx}
+
+
+%----------memulai dokumen----------
+\begin{document}
+
+\include{0-data}
+
+% halaman sampul dan judul menggunakan line spacing = single
+\begin{singlespace}
+%----------Halaman Sampul----------
+\include{1-halaman_sampul}
+
+\newpage
+
+\pagenumbering{roman} % mulai dari halaman judul digunakan penomoran halaman dengan angka romawi kecil, tetapi khusus halaman judul, nomor halamannya tidak ditampilkan
+
+%----------Halaman Judul----------
+\addchapter{HALAMAN JUDUL}
+\include{2-halaman_judul}
+\end{singlespace}
+
+\newpage
+
+% style halaman sebelum abstrak: hanya ada nomor halaman di tengah bawah
+\setcounter{page}{2}
+\fancypagestyle{plain}{
+    \fancyhead{} % hapus semua header
+    \fancyfoot{} % hapus semua footer
+    \fancyfoot[C]{\thepage} % posisikan nomor halaman di tengah bawah
+}
+
+%----------Halaman Pernyataan Orisinalitas----------
+\addchapter{HALAMAN PERNYATAAN ORISINALITAS}
+% halaman pernyataan orisinalitas menggunakan line spacing = double
+\begin{doublespace}
+\include{3-halaman_pernyataan_orisinalitas}
+\end{doublespace}
+
+\newpage
+
+%----------Halaman Pengesahan----------
+\addchapter{HALAMAN PENGESAHAN}
+% halaman pengesahan menggunakan line spacing = single
+\begin{singlespace}
+    \include{4-halaman_pengesahan}
+\end{singlespace}
+
+\newpage
+
+%----------Kata Pengantar----------
+\addchapter{KATA PENGANTAR}
+\include{5-kata_pengantar}
+
+\newpage
+
+%----------Halaman Pernyataan Persetujuan Publikasi Tugas Akhir untuk Kepentingan Akademis----------
+\addchapter{HALAMAN PERNYATAAN PERSETUJUAN PUBLIKASI TUGAS AKHIR UNTUK KEPENTINGAN AKADEMIS}
+\include{6-halaman_pernyataan_persetujuan_publikasi_tugas_akhir_untuk_kepentingan_akademis}
+
+\newpage
+
+% style untuk setiap awal bab
+\fancypagestyle{plain}{
+    \fancyhead{} % hapus semua header
+    \fancyfoot{} % hapus semua footer
+    \fancyfoot[C]{\thepage} % posisikan nomor halaman di tengah bawah
+    \fancyfoot[R]{\sffamily \small \textbf{Universitas Indonesia}} % digunakan font arial yang di-bold dengan ukuran small agar ukuran font menjadi 10 poin karena basis ukuran font adalah 12 poin
+}
+
+%----------Abstrak----------
+\addchapter{ABSTRAK}
+\include{7-abstrak}
+
+\newpage
+
+%----------Abstract----------
+\addchapter{ABSTRACT}
+\include{8-abstract}
+
+\newpage
+
+% daftar isi, daftar gambar, dan daftar tabel menggunakan line spacing = single
+\begin{singlespace}
+%----------Daftar Isi----------
+\addchapter{DAFTAR ISI}
+\tableofcontents
+
+\newpage
+
+%=====Hapus bagian ini jika tidak ada gambar dalam tugas akhir Anda (dari sini)=====
+%----------Daftar Gambar----------
+\addchapter{DAFTAR GAMBAR}
+\listoffigures
+
+\newpage
+%=====(sampai sini)=====
+
+
+%=====Hapus bagian ini jika tidak ada tabel dalam tugas akhir Anda (dari sini)=====
+%----------Daftar Tabel----------
+\addchapter{DAFTAR TABEL}
+\listoftables
+
+\newpage
+%=====(sampai sini)=====
+
+
+%=====Hapus bagian ini jika tidak ada lampiran dalam tugas akhir Anda (dari sini)=====
+%----------Daftar Lampiran----------
+\addchapter{DAFTAR LAMPIRAN}
+\listofappendices
+%=====(sampai sini)=====
+
+\end{singlespace}
+
+\cleardoublepage
+
+% style penomoran halaman bagian isi
+\fancyhead[LE, RO]{\thepage}
+\pagenumbering{arabic}
+
+%----------BAB 1----------
+\include{bab_1}
+\cleardoublepage
+
+%----------BAB 2----------
+\include{bab_2}
+\cleardoublepage
+
+%----------BAB 3----------
+\include{bab_3}
+\cleardoublepage
+
+%----------BAB 4----------
+\include{bab_4}
+\cleardoublepage
+
+%----------Daftar Referensi----------
+\bibliography{referensi}
+
+%----------Lampiran----------
+%=====Hapus bagian ini jika tidak ada lampiran dalam tugas akhir Anda (dari sini)=====
+\newpage
+\include{lampiran}
+%=====(sampai sini)=====
+
+\end{document}

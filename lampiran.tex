@@ -1,0 +1,26 @@
+\makeatletter
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+  {-3.5ex \@plus -1ex \@minus -.2ex}%
+  {2.3ex \@plus.2ex}%
+  {\raggedleft\normalsize}}
+\makeatother
+
+% untuk membuat judul lampiran, gunakan perintah (command) \newappendix
+% catatan: jika suatu Lampiran n (n = 1, 2, 3, ...) lebih dari 1 halaman, maka buat seperti berikut.
+% 1. potong bagian Lampiran n yang berada di halaman kedua.
+% 2. buat halaman baru (\newpage) dan tempatkan bagian yang dipotong tadi di halaman baru tersebut. 
+% 3. pada halaman baru untuk sambungan tersebut, tambahkan perintah (command): \section*{Lampiran n. Judul Lampiran n (lanjutan)} di atas isi lampiran yang dipotong tadi.
+
+\newappendix{Lampiran 1. Lorem Ipsum}
+\lipsum[1-4]
+\newpage
+
+\section*{Lampiran 1. Lorem Ipsum (lanjutan)}
+\lipsum[5-6]
+\newpage
+
+\newappendix{Lampiran 2. Lorem Ipsum} \lipsum[1]
+\newpage
+
+\newappendix{Lampiran 3. Lorem Ipsum}
+\lipsum[1]
