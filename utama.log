@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.13)  14 JAN 2025 22:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.13)  15 JAN 2025 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -263,7 +263,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count294
 )
-LaTeX Info: Redefining \BBA on input line 82.
+LaTeX Info: Redefining \BBA on input line 83.
  (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -474,30 +474,30 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@cols=\count316
 \TX@ftn=\toks35
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 129.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 130.
  (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (utama.aux (0-data.aux) (1-halaman_sampul.aux) (2-halaman_judul.aux) (3-halaman_pernyataan_orisinalitas.aux) (4-halaman_pengesahan.aux) (5-kata_pengantar.aux) (6-halaman_pernyataan_persetujuan_publikasi_tugas_akhir_untuk_kepentingan_akademis.aux) (7-abstrak.aux) (8-abstract.aux) (bab_1.aux) (bab_2.aux) (bab_3.aux) (bab_4.aux) (lampiran.aux))
 \openout1 = `utama.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
-LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -560,7 +560,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 129.
+Package hyperref Info: Link coloring OFF on input line 130.
  (utama.out) (utama.out)
 \@outlinefile=\write3
 \openout3 = `utama.out'.
@@ -571,7 +571,7 @@ Package hyperref Info: Link coloring OFF on input line 129.
 \openout2 = `1-halaman_sampul.aux'.
 
  (1-halaman_sampul.tex
-<gambar/logo ui hitam.png, id=107, 903.375pt x 803.0pt>
+<gambar/logo ui hitam.png, id=111, 903.375pt x 803.0pt>
 File: gambar/logo ui hitam.png Graphic file (type png)
 <use gambar/logo ui hitam.png>
 Package pdftex.def Info: gambar/logo ui hitam.png  used on input line 3.
@@ -666,7 +666,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
  (7-abstrak.tex)
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 197.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 198.
 (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) [6
@@ -760,7 +760,7 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 
 
 ]
-<gambar/teo_nilai_antara.png, id=255, 213.29688pt x 226.8475pt>
+<gambar/teo_nilai_antara.png, id=260, 213.29688pt x 226.8475pt>
 File: gambar/teo_nilai_antara.png Graphic file (type png)
 <use gambar/teo_nilai_antara.png>
 Package pdftex.def Info: gambar/teo_nilai_antara.png  used on input line 55.
@@ -892,20 +892,20 @@ L3 programming layer <2024-08-16>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `utama.out' has not changed.
-(rerunfilecheck)             Checksum: 91F5237FD5D5E0300A96618AB350A964;3775.
+(rerunfilecheck)             Checksum: 9CAD47DADC49870CB3DBCDCA064FFCF1;3968.
  ) 
 Here is how much of TeX's memory you used:
- 16053 strings out of 473898
- 269001 string characters out of 5726951
+ 16054 strings out of 473898
+ 269034 string characters out of 5726951
  1937960 words of memory out of 5000000
- 38492 multiletter control sequences out of 15000+600000
+ 38493 multiletter control sequences out of 15000+600000
  587695 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,15n,93p,623b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ACER/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on utama.pdf (28 pages, 257173 bytes).
+Output written on utama.pdf (28 pages, 257786 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
+ 397 PDF objects out of 1000 (max. 8388607)
  79 named destinations out of 1000 (max. 500000)
- 227 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 
