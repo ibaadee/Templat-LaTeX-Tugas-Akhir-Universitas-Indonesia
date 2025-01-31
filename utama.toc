@@ -7,9 +7,9 @@
 \contentsline {chapter}{ABSTRAK}{vi}{chapter*.4}%
 \contentsline {chapter}{ABSTRACT}{vii}{chapter*.5}%
 \contentsline {chapter}{DAFTAR ISI}{viii}{chapter*.6}%
-\contentsline {chapter}{DAFTAR GAMBAR}{ix}{chapter*.6}%
-\contentsline {chapter}{DAFTAR TABEL}{x}{chapter*.6}%
-\contentsline {chapter}{DAFTAR LAMPIRAN}{xi}{chapter*.6}%
+\contentsline {chapter}{DAFTAR GAMBAR}{x}{chapter*.6}%
+\contentsline {chapter}{DAFTAR TABEL}{xi}{chapter*.6}%
+\contentsline {chapter}{DAFTAR LAMPIRAN}{xii}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{2}{section.1.2}%
@@ -27,3 +27,4 @@
 \contentsline {chapter}{\numberline {4}PENUTUP}{9}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Kesimpulan}{9}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Saran}{9}{section.4.2}%
+\contentsline {chapter}{DAFTAR REFERENSI}{11}{section.4.2}%
