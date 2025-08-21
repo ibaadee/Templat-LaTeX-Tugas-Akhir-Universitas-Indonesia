@@ -1,10 +1,25 @@
 # Templat-LaTeX-Tugas-Akhir-Universitas-Indonesia
-Mahakarya gweh bersama chatgpt selama liburan :v
+Templat ini di-*fork* dari Rifki Prakasya (Matematika 2021) dan disesuaikan dengan kebutuhan penelitian saya. 
+Repositori asli https://github.com/RubikRif/Templat-LaTeX-Tugas-Akhir-Universitas-Indonesia.
 
-Templat ini dibuat oleh Rifki Prakasya (Matematika 2021) untuk mengisi kegabutan selama liburan semester ganjil :D. Templat ini dibuat dengan bantuan ChatGPT, laman resmi Overleaf, dan orang-orang baik dari forum-forum yang membahas tentang LaTeX di Google.
-Pembuatan templat ini didasarkan pada Pedoman Teknis Penulisan Tugas Akhir Mahasiswa Universitas Indonesia Revisi tahun 2017 (berkas tertera dalam folder templat ini).
+Saya menjalankan templat ini menggunakan VS Code. Saya belum mencoba menjalankan dengan Overleaf sehingga Anda perlu menyesuaikannya kembali.
 
+### Penyesuaian yang saya lakukan:
+- Mengganti NatBib ke BibLaTex untuk (APA 7)
+- Menambahkan Integrasi Zotero
+- Menambahkan *leader* titik untuk halaman pada *unnumbered section*.
 
+### Catatan: 
+1. Karena penggunaan BibLaTex untuk APA 7 belum support Bahasa Indonesia, sehingga jika ada kata yang *overflow* pada halaman, kata tersebut perlu ditambahkan pada halaman ```hyphetenation.tex```.
+2. Integrasi Zotero dapat dilihat pada halaman Better Bibtex untuk mengetahui dari sisi Zoteronya https://retorque.re/zotero-better-bibtex/installation/index.html.
+3. Apa saja yang perlu diinstall di mesin Anda:
+    - Distribusi LaTeX (https://www.latex-project.org/get/)
+    - VSCode, berikut library-librarynya:
+        - LaTeX Workshop
+        - LaTeX
+        - Zotero LaTeX
+
+## Langkah-langkah Pengisian 
 1. Langkah pertama yang perlu dilakukan dalam menggunakan templat ini adalah pergi ke berkas "0-data.tex" untuk mengisi data Anda dan tugas akhir Anda.
 
 2. Secara keseluruhan, templat ini dapat digunakan untuk mahasiswa S-1, S-2, maupun S-3. Namun, untuk S-3 ada sedikit perbedaan pada bagian Halaman Pengesahan. Oleh karena itu, jika Anda adalah mahasiswa S-3, pergi ke berkas "4-halaman_pengesahan.tex" untuk melakukan sedikit modifikasi yang juga sudah ada instruksinya di berkas tersebut.

@@ -1,10 +1,10 @@
 \chapter{TINJAUAN PUSTAKA}
 
 \section{Subbab Derajat Pertama}
-Gunakan \texttt{$\backslash$citet\{\}} untuk melakukan kutipan dengan nama penulis disebutkan dalam kalimat. Contoh: \citet{knuth:1984} berpendapat bahwa .... 
+Gunakan \texttt{$\backslash$textcite\{\}} untuk melakukan kutipan dengan nama penulis disebutkan dalam kalimat. Contoh: \textcite{knuth:1984} berpendapat bahwa .... 
 
-Gunakan \texttt{$\backslash$citep\{\}} untuk melakukan kutipan dengan nama penulis tidak disebutkan dalam kalimat. Contoh: \LaTeX \, adalah ... \citep{latex:companion}. Perhatikan bahwa jika banyak penulis antara 3 sampai 5 orang, maka saat sitasi pertama kali semua penulis dituliskan. Namun, untuk selanjutnya akan ditulis 1 nama penulis pertama
-dilanjutkan dengan "dkk" seperti ini \citep{latex:companion}.
+Gunakan \texttt{$\backslash$parencite\{\}} untuk melakukan kutipan dengan nama penulis tidak disebutkan dalam kalimat. Contoh: \LaTeX \, adalah ... \parencite{latex:companion}. Perhatikan bahwa jika banyak penulis antara 3 sampai 5 orang, maka saat sitasi pertama kali semua penulis dituliskan. Namun, untuk selanjutnya akan ditulis 1 nama penulis pertama
+dilanjutkan dengan "dkk" seperti ini \parencite{latex:companion}.
 
 \begin{equation}
     e^{i\pi}+1=0.
@@ -54,7 +54,7 @@ Berdasarkan Teorema \ref{thm:gramschmidt}, persamaan \eqref{eq:dekomposisiruangv
     \centering
     \includegraphics[width=0.5\linewidth]{gambar/teo_nilai_antara.png}
     \caption{Ilustrasi Teorema Nilai Antara}
-    \caption*{\small \citep{varberg2007calculus}} % sumber gambar ditulis seperti ini jika gambar bukan buatan Anda sendiri
+    \caption*{\small \parencite{varberg2007calculus}} % sumber gambar ditulis seperti ini jika gambar bukan buatan Anda sendiri
     \label{fig:teonilaiantara}
 \end{figure}
 
@@ -63,7 +63,7 @@ Tambahkan ", telah diolah kembali" setelah sitasi sumber jika Anda sedikit menam
     \centering
     \includegraphics[width=0.5\linewidth]{gambar/teo_nilai_antara.png}
     \caption{Ilustrasi Teorema Nilai Antara 2}
-    \caption*{\small \citep{varberg2007calculus}, telah diolah kembali} % sumber gambar ditulis seperti ini jika gambar bukan buatan Anda sendiri
+    \caption*{\small \parencite{varberg2007calculus}, telah diolah kembali} % sumber gambar ditulis seperti ini jika gambar bukan buatan Anda sendiri
     \label{fig:teonilaiantara2}
 \end{figure}
 
