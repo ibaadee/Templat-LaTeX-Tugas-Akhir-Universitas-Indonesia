@@ -18,6 +18,7 @@ Saya menjalankan templat ini menggunakan VS Code. Saya belum mencoba menjalankan
         - LaTeX Workshop
         - LaTeX
         - Zotero LaTeX
+    - *Build Recipe*: ```latexmk (latexmkrc)```
 
 ## Langkah-langkah Pengisian 
 1. Langkah pertama yang perlu dilakukan dalam menggunakan templat ini adalah pergi ke berkas "0-data.tex" untuk mengisi data Anda dan tugas akhir Anda.
